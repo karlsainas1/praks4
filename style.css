@@ -1,0 +1,283 @@
+*{
+margin:0;
+ font-family: 'Montserrat';
+color:white;
+ }
+body{
+	
+}
+
+.logo{
+	font-size:30px;
+	font-weight:bold;
+	padding: 40px 0px 0px 5vw;
+	}
+
+.main-nav{
+	margin-top:53px;
+	margin-right:180px;
+	float:right;
+	font-size:16px;
+	font-weight:400;
+	margin-right:2vw;
+	padding-top:0px;
+	
+	}
+
+.main-nav li {
+	list-style: none;
+	float:left;
+	margin-right:5vw;
+	}
+.main-nav li:hover {
+	  border-bottom: 2px solid white;
+}
+header{
+	
+	background-image: url("2.jpg");
+	background-position:bottom;
+	background-attachment: fixed;
+	height:100vh;
+}
+
+.hero-text{
+
+	width:auto;
+	position:absolute;
+	
+	top:50%;
+	left:35vw;
+	transform:translate(-50%, -50%);
+	transition: right 0.5s;
+	
+	
+}
+.hero-text h1 {
+	font-size:70px;
+	font-weight:400;
+	margin-bottom:0px;
+	transition: font-size 1.5s;
+	}
+header p {
+	font-size:20px;
+	font-weight:400;
+}
+		
+		
+		
+.button {
+	margin-top:30px;
+	font-size:16px;
+	font-weight:400;
+    background-color: white; 
+    color: black;
+    padding: 22px 56px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.button:hover {
+	background-color:rgba(255,255,255,0.8)
+
+}
+
+
+/*---------------------------------------------------
+			MISSION
+---------------------------------------------------*/			
+.mission{
+	
+	margin-top:0px;
+	display:flex;
+	flex-direction:row;
+	 justify-content:center;
+	}
+	
+.mission figure {
+		color:black;
+		
+		margin-top:250px;
+		line-height:145%;
+		}
+.mission h2 {
+	color:black;
+	font-size:50px;
+	font-weight:400;
+	margin-bottom:50px;
+	}
+.mission p {
+		width:600px;
+		color:black;
+		font-size:20px;
+	}
+	
+.mission img {
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-right:200px;
+		width:700px;
+		height:700px;
+		object-fit:cover;
+	}
+
+/*---------------------------------------------------
+			CHEEESE
+---------------------------------------------------*/	
+	
+	.pealkiri2{
+	color:black;
+	text-align:center;
+	font-size:50px;
+	font-weight:400;
+	margin-bottom:50px;
+	}
+.cheese {
+	margin-top:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	
+}
+.chees {
+	margin:10px;
+}
+.cheese h3 {
+	font-size:30px;
+	font-weight:400;
+	
+}
+.cheese p {
+	color:black;
+	font-size:20px;
+	width:350px;
+font-weight:400;
+}
+.cheese h3{
+	width:350px;
+	color:black;
+	text-align:center;
+	font-size:30px;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+.cheese img {
+	object-fit:cover;
+	width:350px;
+	height:200px;
+}
+.cheese img:hover{
+	opacity:0.6;
+	
+}
+
+
+.tours{
+	margin-top:100px;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:center;
+
+}
+.tours figure{
+	margin-top:150px;
+		
+}
+
+
+.tours img{
+	
+	margin-top:100px;
+	margin-left:200px;
+	width:700px;
+	height:700px;
+	object-fit:cover;
+
+}
+
+.tours h2 {
+	color:black;
+	font-size:50px;
+	font-weight:400;
+	margin-bottom:50px;
+	}
+.tours p {
+		width:600px;
+		color:black;
+		font-size:20px;
+	}
+	
+	
+	footer {
+	margin-top:100px;
+	position: relative;
+    text-align:center;
+	}
+	footer img{
+		
+		width:50px;
+		height:auto;
+		margin:10px;
+		
+	}
+	
+footer p {
+		
+		color:black;
+	
+		font-size:20px;
+		
+	}
+	
+	
+
+@media only screen and (max-width: 1200px) {
+    body {background: orange;}
+
+	} 	
+
+
+@media only screen and (max-width: 1023px) {
+    body {background: blue;}
+	.hero-text h1 {
+	font-size:50px;
+	
+	
+	}
+	} 
+
+@media only screen and (max-width: 767px) {
+    body {
+		background: green;
+	}
+.hero-text h1 {
+	font-size:36px;
+	font-weight:bold;
+	
+	}
+	
+	
+	
+	
+	
+}
+@media only screen and (max-width: 480px) {
+    body {background: red;}
+.hero-text h1 {
+	font-size:35px;
+	font-weight:bold;
+	}
+.hero-text p {
+	
+}
+.mission{
+	display:flex;
+	flex-direction:column-reverse;
+}
+	}
+
+
+
+
+
